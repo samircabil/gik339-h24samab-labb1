@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script src="script.js"></script>
+    
+    <!-- 
+        Slutsats:  Jag har skapat en HTML fil och kopplat min JacaScript fil med <script> taggen.
+                   Jag kan se utsrifter i webbläsarens konsol via live server. -->
+
+  <!--  Betydelsen av placeringen av <script>:  Om man placerar <script> längst ner i <body> körs Javascript först efter att allt html innehåll har laddats in.
+    Det gör att sidan hinner visas för användaren innan skriptet körs. Om man istället placerar <script> i <head> kan sidan bli långsammare att ladda eftersom javascript körs innan innehållet syns.
+
+        Hur attributet "defer" fugerar: Om man skriver <script> src="script.js" defer></script> laddas javascript filen tidigt som HTML-sidan laddas, 
+        men den körs först när hela HTML-strukturen är färdigladdad. Det betyder att man kan placera skriptet i <head> utan att blockera laddningen av sidan. -->
+      
+</body>
+</html>
+
+
